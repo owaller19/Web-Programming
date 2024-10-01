@@ -1,0 +1,91 @@
+.main-content-container {
+    position: fixed; 
+    left:280px;
+    width: -webkit-fill-available;
+    padding: 25px;
+    overflow-y: scroll;
+    height: -webkit-fill-available;
+}
+.list-group {
+    padding-bottom: 10px;
+}
+
+.sidebar {
+    width: 280px; 
+    position: fixed;
+    height: -webkit-fill-available;
+}
+
+.sectionT {
+    color: #333;
+}
+
+.statBox {
+    background-color: #f8f9fa; 
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.percentage-number, .taskProjectInfo, .hours-info{
+    font-size: 48px;
+}
+
+
+.task-container {
+    overflow-y: auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    height: 75%;
+    width: 80%;
+}
+
+.task-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.task-info h5,
+.task-info h6,
+.task-info p {
+    margin-bottom: 0.5rem;
+}
+
+.task-info h5 {
+    color: #007bff;
+}
+
+.task-info h6 {
+    color: #343a40;
+}
+
+.progress {
+    background-color: #f7f7f7;
+}
+
+.progress-bar {
+    background-color: #28a745;
+    text-align: center;
+    color: white;
+}
+
+.subheadingT {
+    font-size: 12;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.pie-chart-box {
+    background-color: #f8f9fa; 
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    height: auto; 
+}
